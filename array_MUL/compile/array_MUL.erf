@@ -1,0 +1,5 @@
+MESSAGE "File: c:\My_Designs\Array_Multiplier\array_MUL\src\TestBench\mul_TB.vhd" 
+MESSAGE "Compile Entity "mul_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "mul_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_mul"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

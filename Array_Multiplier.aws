@@ -1,0 +1,6 @@
+[Version]
+Version=8.1
+[Designs]
+array_mul=.\array_MUL\array_MUL.adf
+[Expand]
+array_mul=1

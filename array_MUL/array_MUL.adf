@@ -1,0 +1,47 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=array_MUL
+
+[Library]
+array_MUL=.\array_MUL.LIB
+
+[$LibMap$]
+array_MUL=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+FAMILY=
+
+[IMPLEMENTATION]
+UCF=
+
+[Groups]
+TestBench=1
+
+[Files]
+/MUL.vhd=-1
+TestBench/mul_TB.vhd=-1
+TestBench/mul_TB_runtest.do=-1
+
+[Files.Data]
+.\src\MUL.vhd=VHDL Source Code
+.\src\TestBench\mul_TB.vhd=VHDL Test Bench
+.\src\TestBench\mul_TB_runtest.do=Macro
+
