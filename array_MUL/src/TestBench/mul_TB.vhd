@@ -38,8 +38,8 @@ begin
 	-- Add your stimulus here ...
 	process
 	begin 			 
-		a <= "00000100" ;
-		b <= "00000011" ;
+		a <= "00001001" ;
+		b <= "00001011" ;
 		wait  for 10 ns ;
 		a <= "00000010" ;
 		b <= "00000011" ;

@@ -1,4 +1,4 @@
-timestamp=1525037544374
+timestamp=1525625589919
 
 [mul]
 A/mul=A/MUL 21|./src/mul.vhd|40|1*2469
@@ -10,28 +10,28 @@ M/mul=M/MUL 21|0|v147|1525037491247|./src/MUL.vhd|0*2162*0x14062a0ef76f2d8586e98
 R=./src/MUL.vhd|30
 
 [mul_tb]
-A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/mul_TB.vhd|11|1*7579
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/testbench/mul_tb.vhd|11|1*10220
 B/tb_architecture=3*2487
 I=0*3382
-I/tb_architecture=I/TB_ARCHITECTURE 0*5458
+I/tb_architecture=I/TB_ARCHITECTURE 0*6741
 M=11|0|v147|1525037491323|./src/testbench/mul_tb.vhd|0*3094*0x59b12cd21c9c38bef71c5f063caed3d14567c776|0*3302*0x7bd7e13dc0415552f89596087806a8cf
-M/tb_architecture=M/TB_ARCHITECTURE 21|0|v147|1525037544258|./src/TestBench/mul_TB.vhd|0*4846*0x0899673930fe1e199df3168e89ec5569cf5794f2|0*5359*0x7bd7e13dc0415552f89596087806a8cf
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v147|1525625589559|./src/testbench/mul_tb.vhd|0*6129*0x664b3922ee280c6d8f1ec17da03015782cdb1486|0*6642*0x7bd7e13dc0415552f89596087806a8cf
 R=./src/testbench/mul_tb.vhd|8
 
 [testbench_for_mul]
-E=1*9777
+E=1*12442
 I=0*6083
-M=2|0|v147|1525037544281|./src/TestBench/mul_TB.vhd|0*5754*0x49a842bc87906b0d99b781cd3c5ff6e026866164|0*5983*0x7bd7e13dc0415552f89596087806a8cf
-R=./src/TestBench/mul_TB.vhd|55
+M=2|0|v147|1525625589581|./src/TestBench/mul_TB.vhd|0*5754*0x49a842bc87906b0d99b781cd3c5ff6e026866164|0*5983*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/testbench/mul_tb.vhd|55
 
 [~A]
-ModifyID=34
+ModifyID=41
 Version=73
 
 [~MFT]
-0=46|0array_MUL.mgf|6083|1723
-1=8|1array_MUL.mgf|9777|5110
-3=3|3array_MUL.mgf|2487|0
+0=52|0array_MUL.mgf|6741|2631
+1=12|1array_MUL.mgf|12442|7751
+3=5|3array_MUL.mgf|2487|0
 
 [~U]
 mul=11|0*1468|

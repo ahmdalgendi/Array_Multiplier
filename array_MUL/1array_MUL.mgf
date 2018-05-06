@@ -159,7 +159,7 @@ I 000036 55 407 0 testbench_for_mul
 		)
 	)
 )
-V 000056 55 2142          1525037544259 TB_ARCHITECTURE
+I 000056 55 2142          1525037544259 TB_ARCHITECTURE
 (_unit VHDL (mul_tb 0 8 (tb_architecture 0 11 ))
 	(_version v147)
 	(_time 1525037544260 2018.04.29 23:32:24)
@@ -215,7 +215,7 @@ V 000056 55 2142          1525037544259 TB_ARCHITECTURE
 	(_model . TB_ARCHITECTURE 1 -1
 	)
 )
-V 000036 55 407 0 testbench_for_mul
+I 000036 55 407 0 testbench_for_mul
 (_configuration VHDL (testbench_for_mul 0 55 (mul_tb))
 	(_version v147)
 	(_time 1525037544282 2018.04.29 23:32:24)
@@ -223,6 +223,78 @@ V 000036 55 407 0 testbench_for_mul
 	(_use (std(standard))(ieee(numeric_std))(ieee(std_logic_1164))(ieee(std_logic_unsigned)))
 	(_parameters dbg)
 	(_code ada2fcfafcfbfabaa9acbff7f9)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . mul mul
+			)
+		)
+	)
+)
+V 000056 55 2166          1525625589563 TB_ARCHITECTURE
+(_unit VHDL (mul_tb 0 8 (tb_architecture 0 11 ))
+	(_version v147)
+	(_time 1525625589564 2018.05.06 18:53:09)
+	(_source (\./src/testbench/mul_tb.vhd\))
+	(_use (std(standard))(ieee(numeric_std))(ieee(std_logic_1164))(ieee(std_logic_unsigned)))
+	(_parameters dbg)
+	(_code bdbabbe8eceabaa8e8bea9e7ee)
+	(_entity
+		(_time 1525037491323)
+	)
+	(_component
+		(mul
+			(_object
+				(_port (_internal A ~SIGNED{7~downto~0}~13 0 15 (_entity (_in ))))
+				(_port (_internal b ~SIGNED{7~downto~0}~132 0 16 (_entity (_in ))))
+				(_port (_internal c ~SIGNED{15~downto~0}~13 0 17 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 31 (_component mul )
+		(_port
+			((A)(A))
+			((b)(b))
+			((c)(c))
+		)
+		(_use (_entity . mul)
+		)
+	)
+	(_object
+		(_type (_internal ~SIGNED{7~downto~0}~13 0 15 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_type (_internal ~SIGNED{7~downto~0}~132 0 16 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_type (_internal ~SIGNED{15~downto~0}~13 0 17 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 15)(i 0))))))
+		(_type (_internal ~SIGNED{7~downto~0}~134 0 21 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_signal (_internal A ~SIGNED{7~downto~0}~134 0 21 (_architecture (_uni ))))
+		(_signal (_internal b ~SIGNED{7~downto~0}~134 0 22 (_architecture (_uni ))))
+		(_type (_internal ~SIGNED{15~downto~0}~136 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 15)(i 0))))))
+		(_signal (_internal c ~SIGNED{15~downto~0}~136 0 24 (_architecture (_uni ))))
+		(_process
+			(line__39(_architecture 0 0 39 (_process (_wait_for)(_target(0)(1)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.NUMERIC_STD.SIGNED (ieee NUMERIC_STD SIGNED)))
+	)
+	(_static
+		(33686018 50463235 )
+		(33686018 50528771 )
+		(33686018 33751554 )
+		(33686018 50528770 )
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+V 000036 55 407 0 testbench_for_mul
+(_configuration VHDL (testbench_for_mul 0 55 (mul_tb))
+	(_version v147)
+	(_time 1525625589580 2018.05.06 18:53:09)
+	(_source (\./src/testbench/mul_tb.vhd\))
+	(_use (std(standard))(ieee(numeric_std))(ieee(std_logic_1164))(ieee(std_logic_unsigned)))
+	(_parameters dbg)
+	(_code cdcb9b989c9b9adac9ccdf9799)
 	(_architecture TB_ARCHITECTURE
 		(_instantiation UUT
 			(_entity . mul mul

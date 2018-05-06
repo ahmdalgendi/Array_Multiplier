@@ -35,13 +35,22 @@ UCF=
 [Groups]
 TestBench=1
 
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=mul_tb|tb_architecture|0 
+ShowHide=ShowTopLevel
+Selected=
+
 [Files]
 /MUL.vhd=-1
+/untitled.asdb=-1
+/untitled.awc=-1
 TestBench/mul_TB.vhd=-1
 TestBench/mul_TB_runtest.do=-1
 
 [Files.Data]
 .\src\MUL.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
 .\src\TestBench\mul_TB.vhd=VHDL Test Bench
 .\src\TestBench\mul_TB_runtest.do=Macro
-

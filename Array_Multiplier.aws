@@ -4,3 +4,9 @@ Version=8.1
 array_mul=.\array_MUL\array_MUL.adf
 [Expand]
 array_mul=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
